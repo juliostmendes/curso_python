@@ -1,4 +1,4 @@
-# Python-Projetos
+# projetos_python
 > Esse repositório tem como principal função me auxiliar no estudo de Python.
 
 ### Anotações referentes ao:
