@@ -1,4 +1,4 @@
-# Assuntos: Introdução aos tipos de dados
+# Assunto: Introdução aos tipos de dados
 
 """
 Python = Linguagem de programação

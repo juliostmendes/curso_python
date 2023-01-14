@@ -1,4 +1,4 @@
-# Assuntos: comentários, interpretador
+# Assunto: comentários, interpretador
 
 """
 DocString

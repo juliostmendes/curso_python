@@ -1,4 +1,4 @@
-# Assuntos: Tipos int e float
+# Assunto: Tipos int e float
 # int -> Número inteiro
 # O tipo int representa qualquer número
 # positivo ou negativo. int sem sinal é considerado

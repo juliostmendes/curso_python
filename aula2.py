@@ -1,4 +1,4 @@
-# Assuntos: print()
+# Assunto: print()
 
 # Por padrão python já separa os argumentos com espaço
 # E utiliza quebra de linha  \r\n -> CRFL ;  \n -> LF
