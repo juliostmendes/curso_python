@@ -2,7 +2,7 @@
 > Esse repositório tem como principal função me auxiliar no estudo de Python.
 
 ### Anotações referentes ao:
-- Curso de Python 3 do Básico Ao Avançado (com projetos reais)
+- Curso de Python 3 do Básico Ao Avançado (com projetos reais) | Udemy
 
 ### Tecnologias utilizadas ⚙️
 <div style="display: inline_block"><br/>
