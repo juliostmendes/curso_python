@@ -23,41 +23,13 @@ contrário disso:
     resultado é o valor da conta
 O primeiro dígito do CPF é 7
 """
-# Verifica tamanho da entrada
-while True:
-    numero_digitado = input('Digite o seu CPF:')
-    if len(numero_digitado) != 14:
-        print('É necessário digitar o CPF com a pontuação correta')
-        continue
-    break
-
-# Verifica formatação da entrada
-try:
-    numero_digitado = numero_digitado.split('-')
-    primeiros_valores_cpf, digito_cpf = numero_digitado
-except Exception:
-    print(Exception)
-    print('Houve erro na leitura do CPF')
-    print('Sigo o seguinte formato: xxx.xxx.xxx-xx')
-
-aux = 10
-soma = 0
-# Soma dos dígitos
-try:
-    for digito in primeiros_valores_cpf:
-        if digito == '.':
-            continue
-        soma += int(digito) * aux
-        aux -= 1
-except Exception:
-    print(Exception)
-    print('Houve erro no calculo')
-
-# Resultado final
-soma = soma * 10
-resultado = soma % 11
-primeiro_digito = 0 if resultado > 9 else resultado
-if primeiro_digito == int(digito_cpf[0]):
-    print('O primeiro dígito do CPF está correto')
-else:
-    print('O primeiro dígito do CPF NÃO está correto')
+cpf = '74682489070'
+nove_digitos = cpf[:9]
+contador_regressivo_1 = 10
+resultado = 0
+for numero in nove_digitos:
+    resultado += int(numero) * contador_regressivo_1
+    contador_regressivo_1 -= 1
+digito_1 = (resultado * 10) % 11
+digito_1 = digito_1 if digito_1 <= 9 else 0
+print(digito_1)
